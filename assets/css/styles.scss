@@ -1,0 +1,38 @@
+*{
+    background: #2f4430;
+    color: #fff;
+    text-align: center;
+}
+
+.titulo{
+    text-align:center;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    font-size:25px;
+}
+
+.carta{
+    background-color: #2f4430;
+    width: 150px;
+    position: relative;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#computadora-cartas, #jugador-cartas{
+    height: 250px;
+}
+
+.row-mt-2{
+    .col-text-center{
+        .btn{
+            font-size:30px;
+            background-color: #3f0ef0;
+            &:hover{
+                background-color:#e91147;
+            }
+        }
+        
+    }
+}
